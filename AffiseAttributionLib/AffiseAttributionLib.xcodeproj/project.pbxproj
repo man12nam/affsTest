@@ -246,6 +246,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		066656BC2A3B28AD0059498A /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		103AC06028EDD1A900470072 /* affise.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = affise.js; sourceTree = "<group>"; };
 		1053B24528D9A835004FD4B3 /* StoreProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreProvider.swift; sourceTree = "<group>"; };
 		1053B24728D9AB2C004FD4B3 /* TimezoneDeviceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezoneDeviceProvider.swift; sourceTree = "<group>"; };
@@ -678,6 +679,7 @@
 				7C7F56A1289650E50062DA71 /* Attribution */,
 				7C7F564E289650AA0062DA71 /* AffiseAttributionLib.h */,
 				7C7F564F289650AA0062DA71 /* AffiseAttributionLib.docc */,
+				066656BC2A3B28AD0059498A /* module.modulemap */,
 			);
 			path = AffiseAttributionLib;
 			sourceTree = "<group>";

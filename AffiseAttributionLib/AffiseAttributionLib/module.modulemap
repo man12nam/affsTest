@@ -1,0 +1,4 @@
+module AffiseAttributionLib {
+  umbrella header "AffiseAttributionLib.h"
+  export *
+}
