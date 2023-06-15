@@ -14,9 +14,5 @@ let package = Package(
             dependencies: [],
             path: "AffiseAttributionLib"
         ),
-        .target(
-            name: "AffiseSKAdNetwork",
-            path: "AffiseSKAdNetwork",
-            dependencies: []),
     ]
 )
