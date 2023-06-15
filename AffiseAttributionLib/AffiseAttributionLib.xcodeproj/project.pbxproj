@@ -246,7 +246,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		066656A12A3B02500059498A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		103AC06028EDD1A900470072 /* affise.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = affise.js; sourceTree = "<group>"; };
 		1053B24528D9A835004FD4B3 /* StoreProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreProvider.swift; sourceTree = "<group>"; };
 		1053B24728D9AB2C004FD4B3 /* TimezoneDeviceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezoneDeviceProvider.swift; sourceTree = "<group>"; };
@@ -657,7 +656,6 @@
 		7C7F5641289650AA0062DA71 = {
 			isa = PBXGroup;
 			children = (
-				066656A12A3B02500059498A /* Package.swift */,
 				7C7F564D289650AA0062DA71 /* AffiseAttributionLib */,
 				7C7F5659289650AA0062DA71 /* AffiseAttributionLibTests */,
 				7C7F564C289650AA0062DA71 /* Products */,

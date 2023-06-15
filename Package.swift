@@ -1,4 +1,4 @@
-// swift-tools-version:5.8
+// swift-tools-version:4.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,14 +6,14 @@ import PackageDescription
 let package = Package(
     name: "Affise",
     products: [
-        .library(name: "AffiseAttributionLib", targets: ["AffiseAttributionLib"]),
+        .library(name: "affise", targets: ["AffiseAttributionLib", "AffiseSKAdNetwork"]),
     ],
     targets: [
         .target(
             name: "AffiseAttributionLib",
-            dependencies: [])
-//        .testTarget(
-//            name: "AffiseAttributionLibTests",
-//            dependencies: ["AffiseAttributionLib"]),
+            dependencies: []),
+        .target(
+            name: "AffiseSKAdNetwork",
+            dependencies: []),
     ]
 )
