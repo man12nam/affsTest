@@ -11,9 +11,12 @@ let package = Package(
     targets: [
         .target(
             name: "AffiseAttributionLib",
-            dependencies: []),
+            dependencies: [],
+            path: "AffiseAttributionLib"
+        ),
         .target(
             name: "AffiseSKAdNetwork",
+            path: "AffiseSKAdNetwork",
             dependencies: []),
     ]
 )
