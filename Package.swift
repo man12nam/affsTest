@@ -13,7 +13,7 @@ let package = Package(
             name: "AffiseAttributionLib",
             dependencies: [],
             path: "AffiseAttributionLib",
-            publicHeadersPath:"include",
+//            publicHeadersPath:"include",
             exclude: [
                 "AffiseAttributionLibTests"
             ]
