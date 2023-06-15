@@ -2,6 +2,7 @@
 /**
  * Base internal event
  */
+import Foundation
 
 @objc
 public class InternalEvent: NSObject {

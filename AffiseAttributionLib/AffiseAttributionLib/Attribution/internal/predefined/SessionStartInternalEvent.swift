@@ -1,9 +1,6 @@
 import Foundation
 
 
-import Foundation
-
-
 /**
  * When session start.
  *
