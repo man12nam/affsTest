@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Affise",
     products: [
-        .library(name: "affise", targets: ["AffiseAttributionLib", "AffiseSKAdNetwork"]),
+        .library(name: "AffiseAttributionLib", targets: ["AffiseAttributionLib"]),
     ],
     targets: [
         .target(
