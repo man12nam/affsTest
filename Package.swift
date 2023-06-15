@@ -15,5 +15,6 @@ let package = Package(
             path: "AffiseAttributionLib",
             publicHeadersPath:"include"
         ),
-    ]
+    ],
+    url: "https://github.com/man12nam/affsTest.git", "1.0.0"
 )

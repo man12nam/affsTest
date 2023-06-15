@@ -2,6 +2,8 @@
 /**
  * Event ReactivatedSubscription use [data] of event and [userData]
  */
+import Foundation
+
 @objc
 public class ReactivatedSubscriptionEvent : BaseSubscriptionEvent {
 
