@@ -13,12 +13,14 @@ let package = Package(
         .target(
             name: "AffiseAttributionLib",
             dependencies: [],
-            path: "AffiseAttributionLib"
+            path: "AffiseAttributionLib",
+            publicHeadersPath:"include"
         ),
         .target(
             name: "AffiseSKAdNetwork",
             dependencies: [],
-            path: "AffiseSKAdNetwork"
+            path: "AffiseSKAdNetwork",
+            publicHeadersPath:"include"
         ),
     ]
 )
