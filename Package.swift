@@ -16,5 +16,7 @@ let package = Package(
             publicHeadersPath:"include"
         ),
     ],
-    url: "https://github.com/man12nam/affsTest.git", "1.0.0"
+    url: "https://github.com/man12nam/affsTest.git",
+    majorVersion: 1,
+    minor: 1
 )
