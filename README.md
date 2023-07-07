@@ -1,11 +1,11 @@
-# Affise Attribution iOS library
+# Affise Attribution iOS Library
 
 | Pod  | Version |
 | ---- |:-------:|
-| AffiseAttributionLib  | [1.1.6](https://github.com/CocoaPods/Specs/tree/master/Specs/a/9/3/AffiseAttributionLib) |
-| AffiseSKAdNetwork  | [1.1.6](https://github.com/CocoaPods/Specs/tree/master/Specs/3/6/f/AffiseSKAdNetwork) |
+| AffiseAttributionLib  | [1.1.7](https://github.com/CocoaPods/Specs/tree/master/Specs/a/9/3/AffiseAttributionLib) |
+| AffiseSKAdNetwork  | [1.1.7](https://github.com/CocoaPods/Specs/tree/master/Specs/3/6/f/AffiseSKAdNetwork) |
 
-- [Affise Attribution iOS library](#affise-attribution-ios-library)
+- [Affise Attribution iOS Library](#affise-attribution-ios-library)
 - [Description](#description)
   - [Quick start](#quick-start)
   - [Integration](#integration)
@@ -21,6 +21,8 @@
   - [Push token tracking](#push-token-tracking)
   - [Reinstall Uninstall tracking](#reinstall-uninstall-tracking)
   - [Deeplinks](#deeplinks)
+  - [Get random user Id](#get-random-user-id)
+  - [Get random device Id](#get-random-device-id)
   - [Webview tracking](#webview-tracking)
     - [Initialize webview](#initialize-webview)
     - [Events tracking JS](#events-tracking-js)
@@ -42,10 +44,10 @@ To add the SDK using Cocoapods, specify the version you want to use in your Podf
 
 ```ruby
 // Get pod from repository
-pod 'AffiseAttributionLib', '~> 1.1.6'
+pod 'AffiseAttributionLib', '~> 1.1.7'
 
 // Get source directly from GitHub
-pod 'AffiseAttributionLib', :git => 'https://github.com/affise/sdk-ios.git', :tag => '1.1.6'
+pod 'AffiseAttributionLib', :git => 'https://github.com/affise/sdk-ios.git', :tag => '1.1.7'
 ```
 
 ### Initialize
@@ -293,80 +295,80 @@ For objective-c use:
 
 With above example you can implement other events:
 
-- `AchieveLevelEvent`
-- `AddPaymentInfoEvent`
-- `AddToCartEvent`
-- `AddToWishlistEvent`
-- `ClickAdvEvent`
-- `CompleteRegistrationEvent`
-- `CompleteStreamEvent`
-- `CompleteTrialEvent`
-- `CompleteTutorialEvent`
-- `ContentItemsViewEvent`
-- `ConvertedOfferEvent`
-- `ConvertedOfferFromRetryEvent`
-- `ConvertedTrialEvent`
-- `ConvertedTrialFromRetryEvent`
-- `DeepLinkedEvent`
-- `FailedOfferFromRetryEvent`
-- `FailedOfferiseEvent`
-- `FailedSubscriptionEvent`
-- `FailedSubscriptionFromRetryEvent`
-- `FailedTrialEvent`
-- `FailedTrialFromRetryEvent`
-- `InitialOfferEvent`
-- `InitialSubscriptionEvent`
-- `InitialTrialEvent`
-- `InitiatePurchaseEvent`
-- `InitiateStreamEvent`
-- `InviteEvent`
-- `LastAttributedTouchEvent`
-- `ListViewEvent`
-- `LoginEvent`
-- `OfferInRetryEvent`
-- `OpenedFromPushNotificationEvent`
-- `PurchaseEvent`
-- `RateEvent`
-- `ReEngageEvent`
-- `ReactivatedSubscriptionEvent`
-- `RenewedSubscriptionEvent`
-- `RenewedSubscriptionFromRetryEvent`
-- `ReserveEvent`
-- `SalesEvent`
-- `SearchEvent`
-- `ShareEvent`
-- `SpendCreditsEvent`
-- `StartRegistrationEvent`
-- `StartTrialEvent`
-- `StartTutorialEvent`
-- `SubscribeEvent`
-- `SubscriptionEvent`
-- `SubscriptionInRetryEvent`
-- `TravelBookingEvent`
-- `TrialInRetryEvent`
-- `UnlockAchievementEvent`
-- `UnsubscribeEvent`
-- `UnsubscriptionEvent`
-- `UpdateEvent`
-- `ViewAdvEvent`
-- `ViewCartEvent`
-- `ViewItemEvent`
-- `ViewItemsEvent`
+- `AchieveLevel`
+- `AddPaymentInfo`
+- `AddToCart`
+- `AddToWishlist`
+- `ClickAdv`
+- `CompleteRegistration`
+- `CompleteStream`
+- `CompleteTrial`
+- `CompleteTutorial`
+- `ContentItemsView`
+- `ConvertedOffer`
+- `ConvertedOfferFromRetry`
+- `ConvertedTrial`
+- `ConvertedTrialFromRetry`
+- `DeepLinked`
+- `FailedOfferFromRetry`
+- `FailedOfferise`
+- `FailedSubscription`
+- `FailedSubscriptionFromRetry`
+- `FailedTrial`
+- `FailedTrialFromRetry`
+- `InitialOffer`
+- `InitialSubscription`
+- `InitialTrial`
+- `InitiatePurchase`
+- `InitiateStream`
+- `Invite`
+- `LastAttributedTouch`
+- `ListView`
+- `Login`
+- `OfferInRetry`
+- `OpenedFromPushNotification`
+- `Purchase`
+- `Rate`
+- `ReEngage`
+- `ReactivatedSubscription`
+- `RenewedSubscription`
+- `RenewedSubscriptionFromRetry`
+- `Reserve`
+- `Sales`
+- `Search`
+- `Share`
+- `SpendCredits`
+- `StartRegistration`
+- `StartTrial`
+- `StartTutorial`
+- `Subscribe`
+- `Subscription`
+- `SubscriptionInRetry`
+- `TravelBooking`
+- `TrialInRetry`
+- `UnlockAchievement`
+- `Unsubscribe`
+- `Unsubscription`
+- `Update`
+- `ViewAdv`
+- `ViewCart`
+- `ViewItem`
+- `ViewItems`
 
 ## Custom events tracking
 
 Use any of custom events if default doesn't fit your scenario:
 
-- `CustomId01Event`
-- `CustomId02Event`
-- `CustomId03Event`
-- `CustomId04Event`
-- `CustomId05Event`
-- `CustomId06Event`
-- `CustomId07Event`
-- `CustomId08Event`
-- `CustomId09Event`
-- `CustomId10Event`
+- `CustomId01`
+- `CustomId02`
+- `CustomId03`
+- `CustomId04`
+- `CustomId05`
+- `CustomId06`
+- `CustomId07`
+- `CustomId08`
+- `CustomId09`
+- `CustomId10`
 
 ## Predefined event parameters
 
@@ -557,6 +559,22 @@ Example: `app/app/Info.plist`
         </array>
     </dict>
 </array>
+```
+
+## Get random user Id
+
+Use the next public method of SDK
+
+```swift
+Affise.shared.getRandomUserId()
+```
+
+## Get random device Id
+
+Use the next public method of SDK
+
+```swift
+Affise.shared.getRandomDeviceId()
 ```
 
 ## Webview tracking
